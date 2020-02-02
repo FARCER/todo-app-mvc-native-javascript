@@ -1,0 +1,45 @@
+.app {
+	margin: 20px auto;
+	width: 500px;
+}
+
+.title { text-align: center; }
+
+.form {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.form-control { margin-right: 20px; }
+
+.btn { white-space: nowrap; }
+
+.btn-round {
+	background-color: #f2f2f2;
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	cursor: pointer;
+	flex-shrink: 0;
+	height: 40px;
+	width: 40px;
+}
+
+.list-group-item {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.list-group-item.complete .toggle {
+	background-image: url('https://image.flaticon.com/icons/svg/443/443138.svg');
+}
+
+.list-group-item.complete .text {
+	text-decoration: line-through;
+}
+
+.remove {
+	background-image: url('https://image.flaticon.com/icons/svg/443/443152.svg');
+}
